@@ -1,0 +1,7 @@
+@use '../styles';
+
+.change-token {
+  @extend .player-button;
+  padding: 5px 15px;
+  background-color:lightgray;
+}

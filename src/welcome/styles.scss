@@ -1,0 +1,80 @@
+.help {
+  background-color: grey;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 10px;
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+.rules {
+  margin: 20px auto;
+}
+
+.welcome-text {
+  margin-right: 100px;
+  margin-left: 100px;
+  background-color: #61dafb;
+  padding: 10px;
+  border-radius:5px
+}
+
+.start {
+  background-color: lightgrey;
+  padding: 10px 75px 10px 75px;
+  border-radius: 10px;
+  color: Black;
+  cursor: pointer;
+}
+
+.leaderboard {
+  margin-bottom: 50px;
+  height:100%;
+}
+
+.l-table {
+  text-align: center;
+  border-collapse: collapse;
+  margin: 20px auto;
+  width: 75%;
+  height: 100%;
+}
+
+.temp {
+  height:100%;
+}
+
+.l-body .l-row:nth-child(odd){
+  background-color: lightgrey;
+  color: white;
+}
+
+.l-body {
+  display: block;
+  height: 100%;
+  overflow: auto;
+  min-height:400px;
+}
+
+thead, .l-body tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+thead {
+  background: white;
+  color: dodgerblue;
+}
+
+.l-body .l-row:nth-child(1) .l-cell:nth-child(1) {
+  color: darkgoldenrod;
+}
+
+

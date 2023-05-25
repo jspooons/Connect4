@@ -1,0 +1,21 @@
+@use '../styles';
+
+.p1-button {
+  @extend .player-button;
+  position: center;
+}
+
+.p2-button {
+  @extend .player-button;
+  position: relative;
+}
+
+.leave-button1 {
+  @extend .player-button;
+  background-color:lightblue;
+}
+
+.leave-button2 {
+  @extend .player-button;
+  background-color:lightblue;
+}

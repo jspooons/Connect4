@@ -1,0 +1,102 @@
+@use '../../popups/styles';
+@import '../styles';
+
+.login {
+  @extend .rules;
+  width:400px;
+  height:auto;
+}
+
+.container {
+  top:5px;
+  transform: translate(280px,-65px);
+  width:25%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover {
+  .image {
+    opacity: 0.3;
+  }
+
+  .middle {
+    opacity: 1;
+  }
+}
+
+.modal-enter-create {
+  @include modal-button(60px, 119px);
+}
+
+.modal-enter-login {
+  @include modal-button(295px,100px);
+}
+
+.notification {
+  position:absolute;
+  margin-top:5px;
+  margin-left:90px;
+  color:red;
+  font-size:12px;
+}
+
+.close {
+  background-color: white;
+  color: grey;
+  height: 32px;
+  width: 32px;
+  padding: 5px;
+  border-width: 1.5px;
+  font-weight: bold;
+  font-size: medium;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 10px;
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+.enter-nickname-create {
+  margin: 20px;
+}
+
+.enter-nickname-login {
+  margin: 20px;
+}
+
+.register-text {
+  margin:10px;
+}
+
+.nickname-text {
+  margin:10px;
+}
+
+label{
+  padding-right: 10px;
+}
+
+.modal-body {
+  height:auto;
+}

@@ -1,0 +1,37 @@
+.rules {
+  position: fixed;
+  width:500px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background-color: lightgrey;
+  border: 1px solid grey;
+  box-shadow: -2rem 2rem 2rem rgba(black, 0.2);
+  padding: 10px;
+}
+
+.modal-header {
+  border-bottom: 3px solid #bbb;
+}
+
+.modal-footer {
+  border-top: 3px solid #bbb;
+  padding-top:15px;
+}
+
+h2{
+  margin: 5px 15px 10px 15px;
+}
+
+.modal-button {
+  background-color: white;
+  padding: 7px 25px 7px 25px;
+  border-radius: 10px;
+  color: Black;
+  cursor: pointer;
+}
+
+li {
+  padding-bottom:15px;
+}
+

@@ -1,0 +1,157 @@
+@use '../popups/styles';
+
+.exit {
+  background-color: lightgrey;
+  padding: 7px 50px 7px 50px;
+  border-color: lightgrey;
+  border-width:2px;
+  border-radius: 10px;
+  color: White;
+}
+
+.body {
+  width: 100%;
+  height: auto;
+  white-space: nowrap;
+}
+
+.p1 {
+  display: inline-block;
+  width: 15%;
+  vertical-align: top;
+}
+.game {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  min-width:630px;
+}
+
+.p2 {
+  display: inline-block;
+  width: 15%;
+  vertical-align: top;
+}
+
+.nickname {
+  display:block;
+}
+
+.avatar {
+  width:64px;
+  height:64px;
+}
+
+.token {
+  height:48px;
+  width:48px;
+}
+
+.footer {
+  padding-top:100px;
+}
+
+.game-table {
+  display: table;
+  width: auto;
+  background-color: #eee;
+  border: 1px solid #666666;
+  border-radius:15px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.game-table-col {
+  display: table-cell;
+  border-radius:15px;
+  &:hover {
+    background-color:lightskyblue;
+  }
+}
+
+.game-table-cell {
+  background-color: white;
+  border: 1px solid #666666;
+  height:48px;
+  width:48px;
+  pointer-events: none;
+  border-radius: 50%;
+  margin: 25px 20px 25px 20px;
+}
+
+.rematch-yes {
+  @extend .modal-button;
+  position: relative;
+  left:250px;
+}
+
+@mixin win-highlighter {
+  border: 5px solid dodgerblue;
+  border-radius: 50px;
+  position:absolute;
+}
+
+.horizontal-win {
+  @include win-highlighter;
+  height:65px;
+  width:340px;
+  top:95px;
+  left:104px;
+}
+
+.vertical-win {
+  @include win-highlighter;
+  height:295px;
+  width:65px;
+  top:95px;
+  left:106px;
+}
+
+.minor-win {
+  @include win-highlighter;
+  height:420px;
+  width:65px;
+  top:30px;
+  left:-40px;
+}
+
+.major-win {
+  @include win-highlighter;
+  height:420px;
+  width:65px;
+  bottom:325px;
+  left:250px;
+}
+
+
+@mixin win-highlighter {
+  border: 5px solid dodgerblue;
+  border-radius: 50px;
+  position:relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.horizontal-win {
+  @include win-highlighter;
+  height:65px;
+  width:340px;
+}
+
+.vertical-win {
+  @include win-highlighter;
+  height:295px;
+  width:65px;
+}
+
+.minor-win {
+  @include win-highlighter;
+  height:420px;
+  width:65px;
+}
+
+.major-win {
+  @include win-highlighter;
+  height:420px;
+  width:65px;
+}

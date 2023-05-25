@@ -1,0 +1,139 @@
+{
+  "players": [
+    {
+      "nickname": "Nick",
+      "wins": 2,
+      "avatar": "/avatars/avatar1.jpeg"
+    },
+    {
+      "nickname": "Bob",
+      "wins": 5,
+      "avatar": "/avatars/avatar2.jpeg"
+    },
+    {
+      "nickname": "Bill",
+      "wins": 2,
+      "avatar": "/avatars/avatar1.jpeg"
+    },
+    {
+      "nickname": "Harry",
+      "wins": 5,
+      "avatar": "/avatars/avatar2.jpeg"
+    },
+    {
+      "nickname": "Jane",
+      "wins": 2,
+      "avatar": "/avatars/avatar1.jpeg"
+    },
+    {
+      "nickname": "John",
+      "wins": 5,
+      "avatar": "/avatars/avatar2.jpeg"
+    },
+    {
+      "nickname": "Jon",
+      "wins": 2,
+      "avatar": "/avatars/avatar1.jpeg"
+    },
+    {
+      "nickname": "Claire",
+      "wins": 5,
+      "avatar": "/avatars/avatar2.jpeg"
+    },
+    {
+      "nickname": "Sean",
+      "wins": 2,
+      "avatar": "/avatars/avatar1.jpeg"
+    },
+    {
+      "nickname": "Henry",
+      "wins": 5,
+      "avatar": "/avatars/avatar1.jpeg"
+    },
+    {
+      "nickname": "Ella",
+      "wins": 2,
+      "avatar": "/avatars/avatar1.jpeg"
+    },
+    {
+      "nickname": "Emma",
+      "wins": 5,
+      "avatar": "/avatars/avatar2.jpeg"
+    },
+    {
+      "nickname": "Tamsin",
+      "wins": 2,
+      "avatar": "/avatars/avatar1.jpeg"
+    },
+    {
+      "nickname": "Alex",
+      "wins": 5,
+      "avatar": "/avatars/avatar2.jpeg"
+    },
+    {
+      "nickname": "Sara",
+      "wins": 2,
+      "avatar": "/avatars/avatar1.jpeg"
+    },
+    {
+      "nickname": "Sophie",
+      "wins": 5,
+      "avatar": "/avatars/avatar2.jpeg"
+    },
+    {
+      "nickname": "Richard",
+      "wins": 2,
+      "avatar": "/avatars/avatar1.jpeg"
+    },
+    {
+      "nickname": "Jordan",
+      "wins": 5,
+      "avatar": "/avatars/avatar2.jpeg"
+    },
+    {
+      "nickname": "Jim",
+      "wins": 2,
+      "avatar": "/avatars/avatar1.jpeg"
+    },
+    {
+      "nickname": "Issy",
+      "wins": 5,
+      "avatar": "/avatars/avatar2.jpeg"
+    },
+    {
+      "nickname": "Bella",
+      "wins": 2,
+      "avatar": "/avatars/avatar1.jpeg"
+    },
+    {
+      "nickname": "Erion",
+      "wins": 5,
+      "avatar": "/avatars/avatar2.jpeg"
+    },
+    {
+      "nickname": "Connie",
+      "wins": 2,
+      "avatar": "/avatars/avatar1.jpeg"
+    },
+    {
+      "nickname": "Nico",
+      "wins": 5,
+      "avatar": "/avatars/avatar2.jpeg"
+    },
+    {
+      "nickname": "Caesar",
+      "wins": 2,
+      "avatar": "/avatars/avatar1.jpeg"
+    },
+    {
+      "nickname": "Max",
+      "wins": 5,
+      "avatar": "/avatars/avatar2.jpeg"
+    },
+    {
+      "nickname": "Clive",
+      "wins": 2,
+      "avatar": "/avatars/avatar1.jpeg"
+    }
+  ]
+}

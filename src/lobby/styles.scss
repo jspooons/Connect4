@@ -1,0 +1,130 @@
+.text {
+    background-color: grey;
+    color: white;
+    font-size: 16px;
+    padding: 5px 7px 5px 7px;
+    border-radius:10px
+}
+
+.avatar {
+    width:100px;
+    height:100px;
+
+    &:hover {
+        box-shadow: 0 0 10px black;
+    }
+}
+
+.modal-header {
+    border-bottom: 3px solid #bbb;
+}
+
+.modal-footer {
+    border-top: 3px solid #bbb;
+    padding-top:15px;
+}
+
+@mixin modal-button($left, $top) {
+    background-color: white;
+    padding: 7px 25px 7px 25px;
+    border-radius: 10px;
+    position: relative;
+    color: Black;
+    cursor: pointer;
+    left:$left;
+    top:$top;
+}
+
+h2{
+    margin: 5px 15px 10px 15px;
+}
+
+.join {
+    position:relative;
+    width: 100%;
+    height: 500px;
+    top:10%
+}
+
+.player-button {
+    background-color: dodgerblue;
+    padding: 7px 50px 7px 50px;
+    border-color: lightgrey;
+    border-width:2px;
+    border-radius: 10px;
+    color: White;
+}
+
+.join .p1-image, .leave-button1, .change-token1 {
+    position:relative;
+}
+
+.join .p2-image, .leave-button2, .change-token2 {
+    position:relative;
+}
+
+.separator {
+    border-left:3px solid lightgrey;
+    border-radius:5px;
+    height: 485px;
+    position: absolute;
+    top:5%;
+    left: 50%;
+}
+
+.back {
+    background-color: grey;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.start {
+    background-color: lightgrey;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: grey;
+    color: Black;
+    cursor: pointer;
+}
+
+.start:disabled {
+    color:lightgrey;
+    background-color: white;
+    border-color:lightgrey;
+}
+
+.join .hp1 {
+    position:relative;
+    right:26%;
+    top:2%;
+}
+
+.join .hp2 {
+    position:relative;
+    left:26%;
+    top:-6.5%;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.first {
+    display: inline-block;
+    width: 50%;
+}
+.second {
+    display: inline-block;
+    width: 50%;
+
+}
